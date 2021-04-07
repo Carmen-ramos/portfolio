@@ -1,0 +1,95 @@
+@import "../core/variabes";
+
+.sectionInsomnia {
+  margin: 30px 15px;
+  text-transform: capitalize;
+  font-family: $font-main;
+  text-align: left;
+}
+
+.article {
+  &__tittle2 {
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: $colorh2main;
+    /*line-height: 2.14;*/
+  }
+
+  &__title3 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__paragraph {
+    padding-bottom: 30px;
+    text-transform: none;
+    font-family: $font-second;
+    font-weight: normal;
+    color: $colortextP;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+
+  &__buttom {
+    width: 76px;
+    height: 45px;
+    padding: 20px;
+    border: 3px solid $colorbuttoms;
+    border-radius: 22.5px;
+    background-color: $colortext;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #faac58;
+      transition: all ease 5s;
+    }
+
+    &--link {
+      color: $colorbuttoms;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+    }
+  }
+}
+@media all and (min-width: 768px) {
+  .sectionInsomnia {
+    margin: 30px 39px 60px 39px;
+  }
+  .article {
+    &__tittle2 {
+      line-height: 2.14;
+    }
+    &__title3 {
+      padding-bottom: 30px;
+      font-size: 26px;
+    }
+    &__paragraph {
+      font-size: 20px;
+    }
+    &__buttom {
+      width: 91px;
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .sectionInsomnia {
+    margin: 60px 225px;
+  }
+  .article {
+    &__tittle2 {
+      font-size: 16px;
+    }
+    &__title3 {
+      font-size: 32px;
+    }
+
+    &__buttom {
+      width: 160px;
+    }
+  }
+}

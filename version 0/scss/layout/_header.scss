@@ -1,0 +1,15 @@
+.header {
+  &__menu {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    background-color: $colorheadernav;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--img {
+      padding: 10px;
+    }
+  }
+}

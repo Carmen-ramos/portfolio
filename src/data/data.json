@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Spacelabers",
+      "description": "Página creada con HTML5 y CSS",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Tree Profile Cards",
+        "description": "Aplicación web creada con JavaScript",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+      },
+      {
+        "id": 3,
+        "name": "Creatures of JS",
+        "description": "Proyecto con código heredado en JS migrado a React y elaboración de servidor propio.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+      }
+  ]
