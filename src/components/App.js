@@ -10,11 +10,7 @@ import Data from "../data/data.json";
 function App() {
   return (
     <div className="App">
-      <Header />
       <Hero />
-      <Bio />
-      <Projects data={Data} />
-      <Footer />
     </div>
   );
 }
