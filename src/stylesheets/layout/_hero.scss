@@ -10,6 +10,7 @@
   background-image: url(https://gifimage.net/wp-content/uploads/2018/06/website-under-construction-gif-12.gif);
   /* background-size: cover;*/
   background-position: center;
+
   font-family: $font-main;
 }
 
@@ -21,7 +22,7 @@
   justify-content: flex-start;
   align-items: center;
   color: $colortext;
-
+  background-color: rgba(177, 175, 175, 0.476);
   &__tittle {
     text-transform: uppercase;
     font-size: 42px;
