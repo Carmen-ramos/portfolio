@@ -3,20 +3,50 @@ import "../stylesheets/layout/_hero.scss";
 
 function Hero() {
   return (
-    <section class="hero">
-      <div class="herocontainer">
-        <h1 class="herocontainer__tittle">Carmen Ramos</h1>
-        <p class="herocontainer__paragrhap">Junior Front End Developer</p>
+    <section className="hero">
+      <div className="herocontainer">
+        <h1 className="herocontainer__tittle">Carmen Ramos</h1>
+        <h2 className="herocontainer__paragrhap">Junior Front End Developer</h2>
+        <p className="herocontainer__paragrhap">
+          You can reach me in social media
+        </p>
 
-        <a class="herocontainer__scrolldowm" href="#section__reasons">
-          {" "}
-          <img
-            class="herocontainer__scrolldowm--img"
-            src="./assets/images/ico-scroll-down.svg"
-            alt="icono flecha hacia abajo"
-            title="icono redirige a la seccion 3 Reason for purchase"
-          />
-        </a>
+        <ul className="herocontainer__ul">
+          <li className="herocontainer__ul--li">
+            <a
+              className="herocontainer__ul--li item"
+              href="https://github.com/Carmen-ramos"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li className="herocontainer__ul--li">
+            <a
+              className="herocontainer__ul--li item"
+              href="https://twitter.com/CM_Ramart"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li className="herocontainer__ul--li">
+            <a
+              className="herocontainer__ul--li item"
+              href="https://www.linkedin.com/in/carmen-ramart/"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li className="herocontainer__ul--li">
+            <a
+              className="herocontainer__ul--li item"
+              href="mailto:carmen.rama91@gmail.com"
+            >
+              <i class="fas fa-envelope-square"></i>
+            </a>
+          </li>
+        </ul>
+
+        <h2>Let's code together</h2>
       </div>
     </section>
   );
