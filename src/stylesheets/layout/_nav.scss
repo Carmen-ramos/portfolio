@@ -1,0 +1,15 @@
+li::before {
+  content: "/";
+  padding: 0 12px 0 9px;
+}
+li {
+  display: inline-block;
+  color: hotpink;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+ul {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 import "../stylesheets/layout/_hero.scss";
 
 function Hero() {
@@ -11,9 +12,7 @@ function Hero() {
         </h1>
         <p class="herocontainer__paragrhap">Desarrolladora Front End Junior</p>
 
-        <a class="herocontainer__scrolldowm" href="#section__reasons">
-          <i class="fas fa-arrow-down"></i>
-        </a>
+        <Nav />
       </div>
     </section>
   );

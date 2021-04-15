@@ -1,6 +1,5 @@
 import "../stylesheets/App.scss";
 import { useState } from "react";
-import Header from "./Header";
 import Hero from "./Hero";
 import Bio from "./Bio";
 import Footer from "./Footer";
