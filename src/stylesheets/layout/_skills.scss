@@ -1,0 +1,43 @@
+.fortalezasydebilidades {
+  background-color: greenyellow;
+
+  &__containertriangle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &--triangle {
+      width: 0;
+      height: 0;
+      border-left: 1em solid transparent;
+      border-top: 2em solid black;
+      border-right: 1em solid transparent;
+    }
+  }
+
+  &__contenidos {
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 768px) {
+  //TABLET
+  .title1 {
+    color: blue;
+  }
+  .title-2 {
+    padding-bottom: 15px;
+  }
+  .fortalezasydebilidades__contenidos {
+    margin-top: 0;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fortalezas {
+    padding-right: 15px;
+  }
+  .debilidades {
+    padding-left: 15px;
+  }
+}

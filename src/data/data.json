@@ -16,5 +16,23 @@
         "name": "Creatures of JS",
         "description": "Proyecto con código heredado en JS migrado a React y elaboración de servidor propio.",
       "image": "/images/title-creatures.png"
-      }
+      },
+      {
+        "id": 4,
+        "name": "Spacelabers",
+        "description": "Página creada con HTML5 y CSS",
+        "image": "/images/spacelabers.jpg"
+      },
+      {
+          "id": 5,
+          "name": "Tree Profile Cards",
+          "description": "Aplicación web creada con JavaScript",
+        "image": "/images/spacelabers.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Creatures of JS",
+          "description": "Proyecto con código heredado en JS migrado a React y elaboración de servidor propio.",
+        "image": "/images/title-creatures.png"
+        }
   ]

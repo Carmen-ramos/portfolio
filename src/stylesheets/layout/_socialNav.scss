@@ -1,0 +1,19 @@
+.social {
+  &__ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    &--li {
+    }
+    &--li .item {
+      font-size: 15px;
+      @media all and (min-width: 768px) {
+        font-size: 30px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+  }
+}

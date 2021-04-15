@@ -3,22 +3,22 @@ import "../stylesheets/layout/_nav.scss";
 
 function nav() {
   return (
-    <nav class="hero__menu">
-      <ul>
-        <li>
-          <a>Home</a>
+    <nav class="heromenu">
+      <ul className="heromenu__ul">
+        <li className="heromenu__ul--li">
+          <a className="heromenu__ul--li link">Home</a>
         </li>
-        <li>
-          <a>Sobre mi</a>
+        <li className="heromenu__ul--li">
+          <a className="heromenu__ul--li link">Sobre mi</a>
         </li>
-        <li>
-          <a>Proyectos</a>
+        <li className="heromenu__ul--li">
+          <a className="heromenu__ul--li link">Proyectos</a>
         </li>
-        <li>
-          <a>Competencias</a>
+        <li className="heromenu__ul--li">
+          <a className="heromenu__ul--li link">Competencias</a>
         </li>
-        <li>
-          <a>Contacto</a>
+        <li className="heromenu__ul--li">
+          <a className="heromenu__ul--li link">Contacto</a>
         </li>
       </ul>
     </nav>
