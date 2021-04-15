@@ -6,7 +6,7 @@ function Projects(props) {
     return (
       <li className="article1" key={data.id}>
         <h3 className="article1-title">{data.name}</h3>
-        <img src={data.image} alt={data.name} />
+        <img className="imgdata" src={data.image} alt={data.name} />
         <p>{data.description}</p>
       </li>
     );

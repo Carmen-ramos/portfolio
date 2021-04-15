@@ -6,21 +6,13 @@ function Hero() {
     <section class="hero">
       <div class="herocontainer">
         <h1 class="herocontainer__tittle">
-          <span class="herocontainer__tittle--item">Anonymous</span>
-          <span class="herocontainer__tittle--item">proxy</span>
+          <span class="herocontainer__tittle--item">Carmen</span>
+          <span class="herocontainer__tittle--item">Ramos</span>
         </h1>
-        <p class="herocontainer__paragrhap">
-          In hac habitasse platea dictumst.
-        </p>
+        <p class="herocontainer__paragrhap">Desarrolladora Front End Junior</p>
 
         <a class="herocontainer__scrolldowm" href="#section__reasons">
-          {" "}
-          <img
-            class="herocontainer__scrolldowm--img"
-            src="./assets/images/ico-scroll-down.svg"
-            alt="icono flecha hacia abajo"
-            title="icono redirige a la seccion 3 Reason for purchase"
-          />
+          <i class="fas fa-arrow-down"></i>
         </a>
       </div>
     </section>

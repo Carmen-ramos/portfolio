@@ -1,18 +1,28 @@
 @import "../core/variabes";
-
+/*
 .sectionInsomnia {
   margin: 30px 15px;
   text-transform: capitalize;
   font-family: $font-main;
   text-align: left;
-}
+}*/
 
 .article {
+  text-align: center;
+  &__img {
+    &--photo {
+      margin: 10px;
+      width: 150px;
+      height: 220px;
+      border-radius: 5%;
+      border: 1px solid rgb(126, 126, 238);
+    }
+  }
   &__tittle2 {
-    padding-bottom: 5px;
+    padding: 20px;
     font-size: 14px;
     color: $colorh2main;
-    /*line-height: 2.14;*/
+    width: 100%;
   }
 
   &__title3 {
@@ -22,15 +32,21 @@
   }
 
   &__paragraph {
+    margin: 20px;
     padding-bottom: 30px;
     text-transform: none;
     font-family: $font-second;
     font-weight: normal;
     color: $colortextP;
     font-size: 18px;
-    line-height: 1.67;
+    line-height: 1.5;
+    &--claim {
+      text-align: center;
+      margin-bottom: 20px;
+    }
   }
-
+  //Reservar por si quiero añadir un boton "conoceme más"
+  /*
   &__buttom {
     width: 76px;
     height: 45px;
@@ -46,33 +62,41 @@
       background-color: #faac58;
       transition: all ease 5s;
     }
-
     &--link {
       color: $colorbuttoms;
       font-size: 20px;
       font-weight: 500;
       line-height: 2.25;
     }
-  }
+  }*/
 }
 @media all and (min-width: 768px) {
   .sectionInsomnia {
     margin: 30px 39px 60px 39px;
   }
   .article {
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__img {
+      padding-right: 20px;
+      &--photo {
+      }
+    }
     &__tittle2 {
       line-height: 2.14;
     }
-    &__title3 {
-      padding-bottom: 30px;
-      font-size: 26px;
-    }
     &__paragraph {
+      padding-left: 20px;
       font-size: 20px;
+      text-align: left;
     }
+    /*
     &__buttom {
       width: 91px;
-    }
+    }*/
   }
 }
 
@@ -81,8 +105,16 @@
     margin: 60px 225px;
   }
   .article {
-    &__tittle2 {
-      font-size: 16px;
+    &__img {
+      padding-right: 50px;
+      &--photo {
+        align-items: center;
+        height: 400px;
+        width: 250px;
+      }
+    }
+    &__paragraph {
+      text-align: center;
     }
     &__title3 {
       font-size: 32px;
