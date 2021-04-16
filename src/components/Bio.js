@@ -7,9 +7,9 @@ function Bio() {
     <>
       <section class="sectionInsomnia">
         <article class="article">
+          <h2 className="article__tittle2">Sobre mí</h2>
           <div className="article__container">
             <div className="article__img">
-              <h2 className="article__tittle2">Sobre mí</h2>
               <img
                 class="article__img--photo"
                 src={carmen}

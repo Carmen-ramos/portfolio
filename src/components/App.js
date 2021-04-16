@@ -13,7 +13,6 @@ function App() {
       <Hero />
       <Bio />
       <Projects data={Data} />
-      <Skills />
       <Contact />
       <Footer />
     </>
