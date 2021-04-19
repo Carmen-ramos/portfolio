@@ -2,7 +2,7 @@ import "../stylesheets/App.scss";
 import Hero from "./Hero";
 import Bio from "./Bio";
 import Footer from "./Footer";
-import Projects from "./Projects";
+import Slideshow from "./SlideShow2";
 import Data from "../data/data.json";
 import Skills from "./Skills.js";
 import Contact from "./Contact.js";
@@ -12,7 +12,7 @@ function App() {
     <>
       <Hero />
       <Bio />
-      <Projects data={Data} />
+      <Slideshow data={Data} />
       <Contact />
       <Footer />
     </>
