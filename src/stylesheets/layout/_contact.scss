@@ -2,9 +2,16 @@
 
 .contact {
   text-align: center;
+  padding-bottom: 30px;
 
-  font-family: $font-main;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
+  &__title {
+    padding: 30px 0;
+    font-family: $font-main;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+  &__text {
+    padding: 20px;
+  }
 }
