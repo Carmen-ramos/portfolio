@@ -11,16 +11,25 @@ const SliderShow = (props) => {
     slidesToShow: 1,
     arrows: true,
     slidesToScroll: 1,
+    nextArrow: <div>Next</div>,
+    prevArrow: <div className="slick-prev">Previous</div>,
   };
   return (
-    <div>
-      <h2> Single Item</h2>
+    <div className="container">
+      <h2>Proyectos</h2>
       <Slider {...settings}>
         {props.data.map((data) => {
           return (
             <div>
-              <h3>{data.name}</h3>
-              <img src={data.image} width="100%" height="50%" />
+              <span>{data.name}</span>
+              <img
+                src={data.image}
+                style={{
+                  width: "200px",
+                  height: "400px",
+                  border: "1px solid blue",
+                }}
+              />
             </div>
           );
         })}

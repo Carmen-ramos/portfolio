@@ -19,20 +19,14 @@
       },
       {
         "id": 4,
-        "name": "Spacelabers",
-        "description": "Página creada con HTML5 y CSS",
-        "image": "/images/spacelabers.jpg"
+        "name": "Rick and Morty",
+        "description": "Página creada con React",
+        "image": "/images/bk4.jpg"
       },
       {
           "id": 5,
-          "name": "Tree Profile Cards",
+          "name": "Infinity Show",
           "description": "Aplicación web creada con JavaScript",
-        "image": "/images/spacelabers.jpg"
-        },
-        {
-          "id": 6,
-          "name": "Creatures of JS",
-          "description": "Proyecto con código heredado en JS migrado a React y elaboración de servidor propio.",
-        "image": "/images/title-creatures.png"
+        "image": "/images/footerlogo.GIF"
         }
   ]

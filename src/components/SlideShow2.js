@@ -6,8 +6,6 @@ import photo2 from "../images/bk4.jpg";
 import photo3 from "../images/tree2.jpg";
 
 const properties = {
-  duration: 5000,
-  transitionDuration: 500,
   infinite: true,
   indicators: true,
   arrows: true,

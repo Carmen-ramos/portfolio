@@ -2,7 +2,7 @@ import "../stylesheets/App.scss";
 import Hero from "./Hero";
 import Bio from "./Bio";
 import Footer from "./Footer";
-import Slideshow from "./SlideShow2";
+import Slideshow from "./SlideShow1";
 import Data from "../data/data.json";
 import Skills from "./Skills.js";
 import Contact from "./Contact.js";
