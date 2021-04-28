@@ -20,8 +20,12 @@
     text-transform: uppercase;
     font-size: 42px;
     text-align: center;
+
     &--item {
       display: block;
+      animation-name: movimiento-diagonal;
+      animation-duration: 5s;
+      animation-iteration-count: 10;
     }
   }
   &__paragrhap {
@@ -37,6 +41,17 @@
     align-items: center;
     background-color: $colortext;
     border-radius: 50%;
+  }
+}
+
+@keyframes movimiento-diagonal {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: 100px;
+    top: 100px;
   }
 }
 

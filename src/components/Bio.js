@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheets/layout/_bio.scss";
 import carmen from "../images/profile.png";
+import cvpdf from "../cv/CV-Carmen Ramos-English.pdf";
 
 function Bio() {
   return (
@@ -30,10 +31,15 @@ function Bio() {
                 <br />
                 He llegado al mundo de la programación para quedarme.
               </p>
-              <p className="article__paragraph--claim"> Let's code together!</p>
+              <p className="article__paragraph"> Let's code together!</p>
             </div>
           </div>
         </article>
+        <button className="bio__button">
+          <a href={cvpdf} download={cvpdf} className="bio__button--text">
+            Ver CV
+          </a>
+        </button>
       </section>
     </>
   );
